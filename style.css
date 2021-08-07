@@ -1,0 +1,106 @@
+  
+/* Background */
+body {
+	background-color:transparent;
+}
+
+/* Navigation bar */
+.WebAddress{
+  float: left;
+  width: 100px;
+  padding:8px 16px;
+  text-decoration: none;
+}
+
+.WebAddress a{
+  display: block;
+  color: rgb(255, 200, 60);
+  font-weight: bolder;
+  text-decoration:teal;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+li{float: left;}
+
+li a{
+display: block;
+color: #333;
+font-weight: bolder;
+text-decoration: none;
+padding:8px 16px;
+}
+
+li :hover{color: rgb(255, 200, 60);}
+.now{background-color: rgb(255, 200, 60);}
+.now :hover{color: #333;}
+
+/* Header */
+header.PofMonth {
+  background: no-repeat left/cover url(background.jpg);
+  height: 500px;
+  min-width: 120px;
+  max-width: 2160px;
+  color: #fff;
+  text-shadow: #000 0 0 1em;
+}
+
+header.PofMonth > h1 {
+  font-family:"Cursive";
+  margin-top: 0%;
+  margin-left: 2%;
+}
+
+header.PofMonth > h2 {
+  font-family:initial;
+  font-size:0.2em;
+  height:2%;
+  text-align: right;
+  margin:1%;
+}
+
+/* Main content */
+/* Plans */
+.Plans { 
+	float:left;
+  background-color: #C4C4C4;
+  border: 3px solid #000000;	
+  width:16em;
+	height:16em;
+  font-family:Impact;
+  margin-top: 2%;
+  margin-left:6%;
+  margin-bottom:5%;
+}
+
+.Plans PlanName{ 
+	font-size:3em;
+  margin: 5%;
+}
+
+.Plans InfoText { 
+	font-size:1em;
+  margin: 5%;
+}
+
+/* Footer */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
